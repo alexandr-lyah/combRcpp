@@ -1,0 +1,7 @@
+library(Rcpp)
+Sys.setenv("PKG_CXXFLAGS"="-fopenmp")
+Sys.setenv("PKG_LIBS"="-fopenmp")
+sourceCpp("eX.cpp")
+a=rnorm(1000,0,1)
+b=rnorm(1000,0,1)
+c=parad(a,b)
