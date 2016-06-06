@@ -23,3 +23,7 @@ double smallVal(NumericVector x) {
   return x[index];
 }
 ')
+
+
+
+
