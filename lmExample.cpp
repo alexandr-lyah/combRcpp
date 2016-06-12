@@ -19,4 +19,5 @@ double mpe(List mod) {
 /*
 mod <- lm(mpg ~ wt, data = mtcars)
 mpe(mod)
+
 */
