@@ -16,7 +16,6 @@ double mpe(List mod) {
   return err / n;
 }
 
-
 /*
 mod <- lm(mpg ~ wt, data = mtcars)
 mpe(mod)
